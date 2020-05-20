@@ -55,6 +55,7 @@ def runner
   x = initial_round
   display_card_total(x)
   until x > 21
+    display_card_total(x)
     result = hit?(x)
     if result = "s"
       result = hit?(x)
