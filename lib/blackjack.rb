@@ -53,9 +53,15 @@ end
 def runner
   welcome
   x = initial_round
-  display_card_total
-  result = hit?
-  while result = "s"
+  display_card_total(x)
+  while x <= 21
     result = hit?
-  
+    if result = "s"
+      result = hit?
+    end
+    x += deal_card
+    display_card_total(x)
+  end
+    end_game(x)
+  end
 end
