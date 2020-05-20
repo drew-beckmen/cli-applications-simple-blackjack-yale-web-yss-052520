@@ -14,7 +14,7 @@ def prompt_user
   puts "Type 'h' to hit or 's' to stay"
 end
 
-def get_user_input()
+def get_user_input
   gets
 end
 
@@ -37,6 +37,7 @@ def hit?(total)
   if input != "h" && input != "s"
     invalid_command
     prompt_user
+    get_user_input
   end
   total
 end
