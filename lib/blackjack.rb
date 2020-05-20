@@ -62,6 +62,6 @@ def runner
     x += deal_card
     display_card_total(x)
   end
-    end_game(x)
+  end_game(x)
   end
 end
