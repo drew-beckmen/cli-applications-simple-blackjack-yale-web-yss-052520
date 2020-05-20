@@ -56,8 +56,8 @@ def runner
   until x > 21
     display_card_total(x)
     result = hit?(x)
-    if result = "h"
-      result = hit?(x)
+  #  if result = "h"
+      #result = hit?(x)
     end
     x += deal_card
     display_card_total(x)
