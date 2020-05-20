@@ -51,5 +51,11 @@ end
 #####################################################
 
 def runner
+  welcome
+  x = initial_round
+  display_card_total
+  result = hit?
+  while result = "s"
+    result = hit?
   
 end
