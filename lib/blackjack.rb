@@ -59,7 +59,6 @@ def runner
   #  if result = "h"
       #result = hit?(x)
   #  end
-    x += deal_card
   end
   end_game(x)
 end
