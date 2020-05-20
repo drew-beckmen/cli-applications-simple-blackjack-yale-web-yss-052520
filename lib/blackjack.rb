@@ -58,7 +58,7 @@ def runner
     result = hit?(x)
   #  if result = "h"
       #result = hit?(x)
-    end
+  #  end
     x += deal_card
     display_card_total(x)
   end
