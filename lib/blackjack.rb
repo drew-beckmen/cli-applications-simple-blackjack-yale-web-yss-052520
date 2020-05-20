@@ -55,9 +55,9 @@ def runner
   x = initial_round
   display_card_total(x)
   while x <= 21
-    result = hit?
+    result = hit?(x)
     if result = "s"
-      result = hit?
+      result = hit?(x)
     end
     x += deal_card
     display_card_total(x)
