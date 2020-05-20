@@ -60,7 +60,6 @@ def runner
       #result = hit?(x)
   #  end
     x += deal_card
-    display_card_total(x)
   end
   end_game(x)
 end
