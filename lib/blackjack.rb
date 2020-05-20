@@ -36,7 +36,6 @@ def hit?(total)
   if input == "h"
     total += deal_card
   end
-  binding.pry
   if input != "h" && input != "s"
     invalid_command
     hit?(total)
