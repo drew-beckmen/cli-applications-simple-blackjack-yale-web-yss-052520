@@ -53,7 +53,7 @@ def runner
   welcome
   x = initial_round
   until x > 21
-    x += hit?(x)
+    x = hit?(x)
     display_card_total(x)
     if result = "s"
       result = hit?(x)
