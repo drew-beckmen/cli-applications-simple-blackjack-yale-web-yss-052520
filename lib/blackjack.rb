@@ -34,9 +34,8 @@ def hit?(total)
   input = get_user_input.chomp
   if input == "h"
     total += deal_card
-  elsif input == "s"
-    exit
-  else
+  end
+  if input != "h" && input != "s"
     invalid_command
     hit?(total)
   end
