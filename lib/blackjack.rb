@@ -55,9 +55,9 @@ def runner
   until x > 21
     x = hit?(x)
     display_card_total(x)
-    if result = "s"
-      result = hit?(x)
-    end
+    #if result = "s"
+    #  result = hit?(x)
+  #  end
   end
   end_game(x)
 end
